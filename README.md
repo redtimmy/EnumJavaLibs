@@ -5,8 +5,10 @@ EnumJavaLibs: Remote Java classpath enumeration via deserialization.
 
 EnumJavaLibs can be used to discover which libraries are loaded (i.e. available on the classpath) by a remote Java application when it supports deserialization.
 <pre>
-[[ Serially EnumJavaLibs - by Stefan Broeder ]]
-
+-----------------
+Serially - v1.1
+by Stefan Broeder
+-----------------
 Usage:
 
 EnumJavaLibs {MODE} [OPTIONS]
