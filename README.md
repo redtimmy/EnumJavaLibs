@@ -26,9 +26,9 @@ For more information about how to use the tool, please see this blog post.
 <b>Obtaining jar files</b>
 
 A local repository of jar files is required in ~/.serially/jars. You should run the JavaClassDB python3 script to index the jar files, before running EnumJavaLibs. One way to build a local repository is to download the most popular Java libraries from maven central. I provide a script getPopularJars.py that can be used as follows:
-<pre>
+```Shell
 ./getPopularJars.py 20 | while read x; do wget --quiet -P ~/.serially/jars $x; sleep 5; done
-</pre>
+```
 This command will scrape the 20 most popular jar files from mavenrepository.com.
 
 Another way to bootstrap your local jar repository if you are using maven, is to copy the jar files you already have in the maven cache (~/.m2/repository)
