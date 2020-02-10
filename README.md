@@ -21,7 +21,7 @@ OPTIONS:
 -f {string}             Only serialize classes from packages which contain the given string (e.g. org.apache.commons)
 -d                      Debug mode on
 </pre>
-For more information about how to use the tool, please see this blog post.
+For more information about how to use the tool, please see [this blog post](https://www.redtimmy.com/uncategorized/remote-java-classpath-enumeration-with-enumjavalibs/).
 
 <b>Obtaining jar files</b>
 
